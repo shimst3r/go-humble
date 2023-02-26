@@ -6,7 +6,7 @@ on:
     - cron: "0 8 * * *"
 
 jobs:
-  update_readme:
+  update_rss_feeds:
     runs-on: ubuntu-latest
 
     steps:
