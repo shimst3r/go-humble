@@ -109,8 +109,7 @@ func parseProducts(data []byte, category string) ([]Product, error) {
 }
 
 func writeFeedToFile(feed feeds.Feed, category string) error {
-	fileName := fmt.Sprintf("%s.rss", category)
-	f, err := os.OpenFile(fileName, os.O_CREATE|os.O_TRUNC|os.O_WRONLY, 0644)
+	f, err := os.OpenFile(category, os.O_CREATE|os.O_TRUNC|os.O_WRONLY, 0644)
 	if err != nil {
 		return err
 	}
