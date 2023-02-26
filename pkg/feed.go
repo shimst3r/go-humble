@@ -6,6 +6,7 @@ import (
 	"fmt"
 	"net/http"
 	"os"
+	"sort"
 	"strings"
 	"sync"
 	"time"
@@ -73,6 +74,9 @@ func createFeed(products []Product, category string) (feeds.Feed, error) {
 			Description: product.ShortMarketingBlurb,
 		}
 	}
+	// Sort items so that latest bundles are on the top.
+	sort.Slice(feed.Items, func(i, j int) bool { return feed.Items[i].Created.After(feed.Items[j].Created) })
+
 	return feed, nil
 }
 
