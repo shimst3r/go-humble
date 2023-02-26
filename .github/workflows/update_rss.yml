@@ -19,7 +19,7 @@ jobs:
       - name: Run gohumble
         env:
           GITHUB_TOKEN: ${{ secrets.API_TOKEN }}
-        run: gohumble
+        run: cd public && gohumble
       - uses: stefanzweifel/git-auto-commit-action@v4
         env:
           GITHUB_TOKEN: ${{ secrets.API_TOKEN }}
