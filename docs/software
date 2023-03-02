@@ -4,7 +4,14 @@
     <link>https://go-humble.github.io</link>
     <description>Awesome RSS Feeds about HumbleBundle software bundles!</description>
     <managingEditor>shimst3r+rss@gmail.com (Nils Müller)</managingEditor>
-    <pubDate>Sun, 26 Feb 2023 19:41:15 +0100</pubDate>
+    <pubDate>Thu, 02 Mar 2023 18:03:30 +0000</pubDate>
+    <item>
+      <title>Pluralsight Beginners Web Development</title>
+      <link>https://humblebundle.com/software/pluralsight-beginners-web-development-software</link>
+      <description>Get started in the world of web development </description>
+      <content:encoded><![CDATA[Learn the fundamentals of modern web development and jump-start your career with this beginners’ bundle from Pluralsight! The 20 courses in this curriculum are designed to help you build a solid foundation in key concepts and essential skills, including HTML5, CSS, and JavaScript. Get into web development no matter your skill level, and help support Girls Who Code with your purchase!]]></content:encoded>
+      <pubDate>Mon, 27 Feb 2023 19:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Total Performance, Protection and Privacy</title>
       <link>https://humblebundle.com/software/total-performance-protection-and-privacy-software</link>

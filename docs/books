@@ -4,12 +4,19 @@
     <link>https://go-humble.github.io</link>
     <description>Awesome RSS Feeds about HumbleBundle books bundles!</description>
     <managingEditor>shimst3r+rss@gmail.com (Nils Müller)</managingEditor>
-    <pubDate>Sun, 26 Feb 2023 19:41:14 +0100</pubDate>
+    <pubDate>Thu, 02 Mar 2023 18:03:30 +0000</pubDate>
+    <item>
+      <title>Think Like a Programmer by No Starch</title>
+      <link>https://humblebundle.com/books/think-like-programmer-no-starch-books</link>
+      <description>Blueprints for better coding</description>
+      <content:encoded><![CDATA[Train your brain to think like a programmer with the trusted and entertaining experts of No Starch Press! Start to understand the machine mind in Randall Hyde’s three-part <em>Write Great Code</em> series.  Learn about system architecture, data structures, recursion, algorithmic thinking, and more. Teach yourself foundational principles that will help improve your skills with virtually any programming language, and help support the Electronic Frontier Foundation with your purchase. ]]></content:encoded>
+      <pubDate>Mon, 27 Feb 2023 19:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Encore Fallout RPG &amp; 3D Miniatures by Modiphius</title>
       <link>https://humblebundle.com/fallout-rpg-and-3d-miniatures-encore-modiphius-books</link>
       <description>Tabletop warfare and role-playing in the wasteland </description>
-      <content:encoded><![CDATA[Journey into the Vaults, ruined cities, and radioactive wastes of <em>Fallout: Wasteland Warfare</em> with this bundle of tabletop combat & role-playing books and resources from Modiphius! Prepare for life and death in the post-apocalypse with a digital pack full of rulebooks, RPG expansions, campaign handbooks, and more ebooks. Bring your adventures and battles to life with 3D printable (STL format) terrain and miniatures. Explore the <em>Fallout</em> on your tabletop, and help support Trees, Water, People; and the charity of your choice.]]></content:encoded>
+      <content:encoded><![CDATA[Journey into the Vaults, ruined cities, and radioactive wastes of <em>Fallout: Wasteland Warfare</em> with this bundle of tabletop combat & role-playing books and 3D print files from Modiphius! Prepare for life and death in the post-apocalypse with a digital pack full of rulebooks, RPG expansions, campaign handbooks, and more ebooks. Bring your adventures and battles to life with 3D printable (STL format) terrain and miniatures. Explore <em>Fallout</em> on your tabletop, and help support Trees, Water, People; or the charity of your choice.]]></content:encoded>
       <pubDate>Sat, 25 Feb 2023 19:00:00 +0000</pubDate>
     </item>
     <item>
@@ -32,13 +39,6 @@
       <description>A cold-blooded collection of true-life tales</description>
       <content:encoded><![CDATA[From Skyhorse Publishing comes this expansive collection of books covering true crimes—grisly murders tied to key political figures, cults hidden in plain sight in New York City, family betrayal, and much more. Explore the nature of evil and the insidious ways people respond when pushed to their limits in this macabre library, and discover whether justice is swift (or delivered at all) in detailed, award-winning books like <em>Mary’s Mosaic</em>, <em>Double Cross</em>, and dozens more. Plus, your purchase goes on to support the NAACP Legal Defense Fund.]]></content:encoded>
       <pubDate>Sat, 11 Feb 2023 19:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Applied Engineering by Mercury</title>
-      <link>https://humblebundle.com/books/applied-engineering-mercury-books</link>
-      <description>Put engineering concepts &amp; theory into practice</description>
-      <content:encoded><![CDATA[Find practical answers to real problems with this engineers’ library from Mercury Learning! This bundle of ebooks explores the concepts that modern mechanical, industrial, and electrical engineers need in their everyday work, including data science, physics, mathematics tools, IoT, and much more. Learn critical concepts, discover how to apply them in your own career, and help support NPower and Whale & Dolphin Conservation with your purchase!]]></content:encoded>
-      <pubDate>Mon, 06 Feb 2023 19:00:00 +0000</pubDate>
     </item>
     <item>
       <title>So You Wanna Try Out Pathfinder by Paizo</title>
