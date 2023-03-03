@@ -4,7 +4,14 @@
     <link>https://go-humble.github.io</link>
     <description>Awesome RSS Feeds about HumbleBundle software bundles!</description>
     <managingEditor>shimst3r+rss@gmail.com (Nils Müller)</managingEditor>
-    <pubDate>Thu, 02 Mar 2023 18:03:30 +0000</pubDate>
+    <pubDate>Fri, 03 Mar 2023 08:18:27 +0000</pubDate>
+    <item>
+      <title>The Complete Python Programming MEGA Bundle</title>
+      <link>https://humblebundle.com/software/complete-python-programming-mega-bundle-zenva-software</link>
+      <description>Learn programming with Python</description>
+      <content:encoded><![CDATA[Get started with Python—the world's most popular programming language! Loved by pros and hobbyists alike, this easy-to-learn language is used for web development, game creation, AI, robotics, computer vision, automating tasks, and even space exploration! You'll learn by building real projects with Python, and work with Pygame, SQL, Tkinter, Kivy, and Pandas—all while supporting NPower with your purchase.]]></content:encoded>
+      <pubDate>Thu, 02 Mar 2023 19:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Pluralsight Beginners Web Development</title>
       <link>https://humblebundle.com/software/pluralsight-beginners-web-development-software</link>
@@ -55,25 +62,11 @@
       <pubDate>Mon, 13 Feb 2023 19:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Music Producer 2023: Plugins &amp; Software Essentials</title>
-      <link>https://humblebundle.com/software/music-producer-2023-plugins-software-essentials-software</link>
-      <description>A must-have mix for musicmakers</description>
-      <content:encoded><![CDATA[Listen up, music producers, artists, DJs, vocalists, and everyone who dreams of making their own music—this bundle of software essentials was mixed for you! Featuring a pack of plug-ins to add punch, power, and polish to your productions, along with a library of royalty-free loops, beats, and samples to help you construct your melodies, this value-packed collection will help take your digital compositions to new levels. Plus, your purchase helps support Alzheimer's Research UK.]]></content:encoded>
-      <pubDate>Thu, 09 Feb 2023 19:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>The Complete Creative Coding UI / UX Online Course</title>
       <link>https://humblebundle.com/software/complete-creative-coding-ui-ux-online-course-software</link>
       <description>Learn to build awesome user experiences</description>
       <content:encoded><![CDATA[Want to make intuitive and elegant interactive experiences? Learn to design, code, and create with this bundle of UX and UI courses from Mammoth Interactive! You’ll explore principles and best practices behind great websites and mobile apps, and learn the tools you need to bring your own to life—including Figma, Python, React, Xcode, Google Material Design, and more. Plus, your purchase will support NPower!]]></content:encoded>
       <pubDate>Mon, 06 Feb 2023 19:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Learn To Make Games In Unreal Engine 5</title>
-      <link>https://humblebundle.com/software/learn-to-make-games-in-unreal-engine-5-software</link>
-      <description>Master Unreal Engine 5 game development</description>
-      <content:encoded><![CDATA[Learn to build games in Unreal Engine 5 with this bundle of online courses from GameDev.tv! Find out how to use Blueprints and master the fundamentals of C++ programming. Learn key skills for VR development and discover how to create a multiplayer game you can play with friends. Get engaging and entertaining courses from experienced and passionate instructors, and help support One Tree Planted with your purchase!]]></content:encoded>
-      <pubDate>Thu, 26 Jan 2023 19:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>

@@ -4,7 +4,14 @@
     <link>https://go-humble.github.io</link>
     <description>Awesome RSS Feeds about HumbleBundle books bundles!</description>
     <managingEditor>shimst3r+rss@gmail.com (Nils Müller)</managingEditor>
-    <pubDate>Thu, 02 Mar 2023 18:03:30 +0000</pubDate>
+    <pubDate>Fri, 03 Mar 2023 08:18:27 +0000</pubDate>
+    <item>
+      <title>Elfquest: The Complete Dark Horse Collection</title>
+      <link>https://humblebundle.com/books/elfquest-complete-dark-horse-collection-books</link>
+      <description>Journey to the World of Two Moons</description>
+      <content:encoded><![CDATA[Discover the saga of Cutter, chief of the elfin tribe of the Wolfriders, and his epic quest across the World of Two Moons in <em>ElfQuest</em>, Wendy and Richard Pini’s long-running fantasy graphic novel series. This collection features every volume of the series published by Dark Horse, including <em>The Complete ElfQuest</em>, <em>The Final Quest</em>, and <em>Stargazer’s Hunt</em>. Celebrate 45 years of <em>ElfQuest</em>, and help support The Hero Initiative with your purchase!]]></content:encoded>
+      <pubDate>Thu, 02 Mar 2023 19:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Think Like a Programmer by No Starch</title>
       <link>https://humblebundle.com/books/think-like-programmer-no-starch-books</link>
@@ -39,13 +46,6 @@
       <description>A cold-blooded collection of true-life tales</description>
       <content:encoded><![CDATA[From Skyhorse Publishing comes this expansive collection of books covering true crimes—grisly murders tied to key political figures, cults hidden in plain sight in New York City, family betrayal, and much more. Explore the nature of evil and the insidious ways people respond when pushed to their limits in this macabre library, and discover whether justice is swift (or delivered at all) in detailed, award-winning books like <em>Mary’s Mosaic</em>, <em>Double Cross</em>, and dozens more. Plus, your purchase goes on to support the NAACP Legal Defense Fund.]]></content:encoded>
       <pubDate>Sat, 11 Feb 2023 19:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>So You Wanna Try Out Pathfinder by Paizo</title>
-      <link>https://humblebundle.com/books/so-you-wanna-try-out-pathfinder-paizo-books</link>
-      <description>Gear up for your Pathfinder journey</description>
-      <content:encoded><![CDATA[Limitless adventure awaits—and this epic bundle from Paizo is the perfect way to join the thriving community of rangers, rogues, and sorcerers in the <em>Pathfinder 2nd Edition</em> tabletop role-playing game! This digital adventurer’s kit is packed with everything new heroes need to embark on their own saga, plus tons of RPG resources to power countless adventures to come: <br> <ul> <li>Outfit yourself with essentials including the digital&nbsp;<em>Pathfinder 2E Beginner Box</em> and <em>Core Rulebook</em>.</li> <li>Discover the perils that await in the <em>Abomination Vaults</em> Adventure Path (plus Foundry Virtual Tabletop version) and more campaign ebooks.</li> <li>Get resources to enhance your journey, including guides to the Pathfinder world, expanded character options, digital pawns &amp; maps, and more.</li> </ul> Unleash your hero…and help support Code for America with your purchase!]]></content:encoded>
-      <pubDate>Thu, 02 Feb 2023 19:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
