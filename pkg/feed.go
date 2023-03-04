@@ -20,33 +20,7 @@ func Run() {
 	wg := sync.WaitGroup{}
 	for _, category := range []string{"books", "games", "software"} {
 		wg.Add(1)
-		go func(category string) {
-			defer wg.Done()
-			resp, err := http.Get(fmt.Sprintf("https://www.humblebundle.com/%s", category))
-			if err != nil {
-				log.WithFields(log.Fields{"status": resp.StatusCode}).Error(err)
-			}
-			defer resp.Body.Close()
-			doc, err := goquery.NewDocumentFromReader(resp.Body)
-			if err != nil {
-				log.Error(err)
-			}
-			doc.Find("script#landingPage-json-data").Each(func(idx int, s *goquery.Selection) {
-				node := s.Nodes[0]
-				data := node.FirstChild.Data
-				products, err := parseProducts([]byte(data), category)
-				if err != nil {
-					log.WithField("state", "parsing").Error(err)
-				}
-				feed, err := createFeed(products, category)
-				if err != nil {
-					log.WithField("state", "creating").Error(err)
-				}
-				if err := writeFeedToFile(feed, category); err != nil {
-					log.WithField("state", "writing").Error(err)
-				}
-			})
-		}(category)
+		go updateCategory(&wg, category)
 	}
 	wg.Wait()
 }
@@ -108,8 +82,40 @@ func parseProducts(data []byte, category string) ([]Product, error) {
 	}
 }
 
+func updateCategory(wg *sync.WaitGroup, category string) {
+	defer wg.Done()
+	resp, err := http.Get(fmt.Sprintf("https://www.humblebundle.com/%s", category))
+	if err != nil {
+		log.WithFields(log.Fields{"status": resp.StatusCode}).Error(err)
+	}
+	defer resp.Body.Close()
+	doc, err := goquery.NewDocumentFromReader(resp.Body)
+	if err != nil {
+		log.Error(err)
+	}
+	doc.Find("script#landingPage-json-data").Each(func(idx int, s *goquery.Selection) {
+		node := s.Nodes[0]
+		data := node.FirstChild.Data
+		products, err := parseProducts([]byte(data), category)
+		if err != nil {
+			log.WithField("step", "parsing").Error(err)
+		}
+		feed, err := createFeed(products, category)
+		if err != nil {
+			log.WithField("step", "creating").Error(err)
+		}
+		if err := writeFeedToFile(feed, category); err != nil {
+			log.WithField("step", "writing").Error(err)
+		}
+	})
+}
+
 func writeFeedToFile(feed feeds.Feed, category string) error {
-	f, err := os.OpenFile(category, os.O_CREATE|os.O_TRUNC|os.O_WRONLY, 0644)
+	f, err := os.OpenFile(
+		fmt.Sprintf("%s.rss", category),
+		os.O_CREATE|os.O_TRUNC|os.O_WRONLY,
+		0644,
+	)
 	if err != nil {
 		return err
 	}
