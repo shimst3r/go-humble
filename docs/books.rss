@@ -4,7 +4,14 @@
     <link>https://go-humble.github.io</link>
     <description>Awesome RSS Feeds about HumbleBundle books bundles!</description>
     <managingEditor>shimst3r+rss@gmail.com (Nils Müller)</managingEditor>
-    <pubDate>Sat, 04 Mar 2023 11:20:41 +0000</pubDate>
+    <pubDate>Sun, 05 Mar 2023 08:16:55 +0000</pubDate>
+    <item>
+      <title>Goosebumps Collection by Scholastic Inc.</title>
+      <link>https://humblebundle.com/books/goosebumps-collection-scholastic-inc-books</link>
+      <description>A terrifyingly fun treasury of R. L. Stine tales</description>
+      <content:encoded><![CDATA[For more than 30 years, R. L. Stine has been scaring and delighting young minds with his iconic <em>Goosebumps</em> series. Now, readers of all ages can discover the monsters, mysteries, and malevolent ventriloquist dummies that sparked the imaginations—and haunted the dreams—of generations in <em>The Ghost Next Door</em>, <em>Let's Get Invisible!</em>, <em>It Came from Beneath the Sink!</em>, and more. Get a treasury of over 30 ebooks, and help support Active Minds with your purchase! <br><br><a style="color:#EF9741"><em>This bundle is available to U.S. customers only.</em></a>]]></content:encoded>
+      <pubDate>Sat, 04 Mar 2023 19:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Elfquest: The Complete Dark Horse Collection</title>
       <link>https://humblebundle.com/books/elfquest-complete-dark-horse-collection-books</link>
@@ -39,13 +46,6 @@
       <description>Judge Dredd, Slaine, Nikolai Dante, and more</description>
       <content:encoded><![CDATA[The Galaxy's Greatest Comics are back! The famed British science-fiction magazine <em>2000 AD</em> has been entertaining readers for years, and given the world some of comics’ most beloved and celebrated authors and artists. This thrilling bundle highlights some of </em>2000 AD</em>’s most iconic characters with books like <em>Judge Dredd Day of Chaos: Endgame</em>, <em>Slaine: The Horned God</em>, and <em>Nikolai Dante: Sympathy for the Devil</em>—among dozens of others. Explore some of Britain’s most popular comic book characters, and help support Cancer Research UK!]]></content:encoded>
       <pubDate>Sun, 19 Feb 2023 19:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>True Crime Essentials by Skyhorse Publishing</title>
-      <link>https://humblebundle.com/books/true-crime-essentials-skyhorse-publishing-books</link>
-      <description>A cold-blooded collection of true-life tales</description>
-      <content:encoded><![CDATA[From Skyhorse Publishing comes this expansive collection of books covering true crimes—grisly murders tied to key political figures, cults hidden in plain sight in New York City, family betrayal, and much more. Explore the nature of evil and the insidious ways people respond when pushed to their limits in this macabre library, and discover whether justice is swift (or delivered at all) in detailed, award-winning books like <em>Mary’s Mosaic</em>, <em>Double Cross</em>, and dozens more. Plus, your purchase goes on to support the NAACP Legal Defense Fund.]]></content:encoded>
-      <pubDate>Sat, 11 Feb 2023 19:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
