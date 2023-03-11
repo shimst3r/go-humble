@@ -119,13 +119,13 @@ func writeFeedToFile(feed feeds.Feed, category string) error {
 	if err != nil {
 		return err
 	}
+	defer f.Close()
 	w := bufio.NewWriter(f)
 	rss, err := feed.ToRss()
 	if err != nil {
 		return err
 	}
-	nn, err := w.WriteString(rss)
-	if err != nil || nn == 0 {
+	if _, err := w.WriteString(rss); err != nil {
 		return err
 	}
 	// Manual flush because otherwise the RSS feeds will not be created all the time.
