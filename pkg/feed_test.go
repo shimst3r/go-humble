@@ -18,6 +18,7 @@ func Test_updateCategory(t *testing.T) {
 	}
 	for _, tt := range tests {
 		t.Run(tt.name, func(t *testing.T) {
+			tt.args.wg.Add(1)
 			updateCategory(tt.args.wg, tt.args.category)
 		})
 	}
